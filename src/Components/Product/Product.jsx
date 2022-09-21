@@ -28,7 +28,7 @@ export default class Product extends Component {
     }
     render() {
         return (
-            <div className='container glass'>
+            <div className='container glass mt-5'>
                 <div className='glass__model d-flex justify-content-evenly'>
                     <div className='model__left position-relative'>
                         <img className='img-fluid' src="./glassesImage/model.jpg" alt />
