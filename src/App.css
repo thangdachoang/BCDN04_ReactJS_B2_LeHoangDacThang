@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+.glass__model .model__left,.model__right>img{
+  width: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.glass__model .position-absolute{
+  opacity: 0.8;
+  top: 26%;
+  left: 49%;
+  width: 56%;
+  transform: translateX(-50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.glass__model .infomation{
+  opacity: 1;
+  background-color: #ffa50057 ;
+  top: 61%;
+  left: 50%;
+  width: 100%;
+  font-size: 13px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.glass__model .infomation span{
+  color: blue;
 }
